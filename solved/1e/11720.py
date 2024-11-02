@@ -11,11 +11,12 @@ N개의 숫자가 공백 없이 쓰여있다. 이 숫자를 모두 합해서 출
 
 numbers_count = int(input())
 
-numbers = list(input())
+numbers = input()
 # print(numbers)
 subtotal = 0
 
 for i in numbers:
+    print(i)
     subtotal += int(i)
 print(subtotal)
 
